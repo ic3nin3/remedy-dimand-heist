@@ -51,3 +51,5 @@ lcov.info
 coverage.json
 coverage-final.json
 .solhintcache
+
+./broadcast
