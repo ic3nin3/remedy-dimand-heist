@@ -1,0 +1,53 @@
+# Foundry build artifacts
+out/
+cache/
+
+# Foundry temporary files
+lib/.forge-*
+lib/forge-std/  # Exclude forge-std library if installed in `lib`
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# Python files (if any scripts are used)
+*.pyc
+__pycache__/
+
+# Docker files
+*.env
+docker-compose.override.yml
+*.pid
+*.log
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+*.iml
+
+# Logs
+*.log
+*.pid
+*.seed
+*.log.*
+*.pid.*
+
+# Secrets or environment files
+.env
+.env.local
+.env.*.local
+
+# Test coverage output
+coverage/
+lcov-report/
+lcov.info
+
+# Solidity static analysis tools
+.solcover
+.solcover.js
+coverage.json
+coverage-final.json
+.solhintcache
